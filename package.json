@@ -1,0 +1,26 @@
+{
+  "name": "final-flex",
+  "version": "0.0.1",
+  "description": "A library for managing grid layout with flex",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp"
+  },
+  "keywords": [
+    "css",
+    "grid",
+    "layout",
+    "flex"
+  ],
+  "author": "Areum Han <roomy.han@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/register": "^7.7.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1"
+  }
+}
