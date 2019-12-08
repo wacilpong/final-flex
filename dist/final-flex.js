@@ -1,0 +1,18 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.createVirtualBox = void 0;
+
+// 1. 고정형
+var createArray = function createArray(total, col) {
+  return Array(total % col).fill(0);
+};
+
+var createVirtualBox = function createVirtualBox(total, col) {
+  return createArray(total, col);
+};
+
+exports.createVirtualBox = createVirtualBox;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbImNyZWF0ZUFycmF5IiwidG90YWwiLCJjb2wiLCJBcnJheSIsImZpbGwiLCJjcmVhdGVWaXJ0dWFsQm94Il0sIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQUE7QUFDQSxJQUFNQSxXQUFXLEdBQUcsU0FBZEEsV0FBYyxDQUFDQyxLQUFELEVBQVFDLEdBQVI7QUFBQSxTQUFnQkMsS0FBSyxDQUFDRixLQUFLLEdBQUdDLEdBQVQsQ0FBTCxDQUFtQkUsSUFBbkIsQ0FBd0IsQ0FBeEIsQ0FBaEI7QUFBQSxDQUFwQjs7QUFDTyxJQUFNQyxnQkFBZ0IsR0FBRyxTQUFuQkEsZ0JBQW1CLENBQUNKLEtBQUQsRUFBUUMsR0FBUjtBQUFBLFNBQWdCRixXQUFXLENBQUNDLEtBQUQsRUFBUUMsR0FBUixDQUEzQjtBQUFBLENBQXpCIiwiZmlsZSI6ImZpbmFsLWZsZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyIvLyAxLiDqs6DsoJXtmJVcbmNvbnN0IGNyZWF0ZUFycmF5ID0gKHRvdGFsLCBjb2wpID0+IEFycmF5KHRvdGFsICUgY29sKS5maWxsKDApO1xuZXhwb3J0IGNvbnN0IGNyZWF0ZVZpcnR1YWxCb3ggPSAodG90YWwsIGNvbCkgPT4gY3JlYXRlQXJyYXkodG90YWwsIGNvbCk7XG4iXX0=

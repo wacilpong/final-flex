@@ -5,7 +5,7 @@
   "author": "Areum Han <roomy.han@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/wacilpong/final-flex",
-  "main": "dist/final-flex.min.js",
+  "main": "dist/final-flex-min.js",
   "scripts": {
     "build": "gulp"
   },
@@ -34,6 +34,7 @@
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-concat": "^2.6.1",
-    "gulp-csso": "^4.0.1"
+    "gulp-csso": "^4.0.1",
+    "gulp-minify": "^3.1.0"
   }
 }
