@@ -1,7 +1,7 @@
-const { src, dest, task } = require("gulp");
-const babel = require("gulp-babel");
-const minifyCSS = require("gulp-csso");
-const concat = require("gulp-concat");
+import { src, dest, task } from "gulp";
+import babel from "gulp-babel";
+import minifyCSS from "gulp-csso";
+import concat from "gulp-concat";
 
 task("default", done => {
   src("lib/*.css")
