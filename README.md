@@ -45,3 +45,39 @@ needed elements in last row = 5 - (18 % 5) = 2  => this is the key!
 <br><br>
 
 ### Usage
+```
+npm i --save-dev flex-final
+```
+<br>
+
+1. vanilla js
+```
+import { createHiddenBox } from "final-flex";
+
+const hiddenBox = createHiddenBox(12, 5);
+
+hiddenBox.forEach(() => {
+  const newItem = document.createElement("div");
+
+  newItem.className = "item hidden";  
+  container.appendChild(newItem);
+});
+```
+<br>
+
+2. jsx syntax such as React
+```
+import { createHiddenBox } from "final-flex";
+
+const hiddenBox = createHiddenBox(12, 5);
+
+return (
+    ...
+    {hiddenBox.map(() => <div className={cx("item", "hidden")} />)}
+)
+```
+
+### Example
+https://codepen.io/wacilpong/pen/abzWmNq
+
+### ing...
