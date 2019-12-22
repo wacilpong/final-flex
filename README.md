@@ -44,7 +44,7 @@ needed elements in last row = 5 - (18 % 5) = 2  => this is the key!
 결국 마지막 row에 숨겨진 가짜 데이터를 만들어주면 기본적인 flex 속성으로 그리드 레이아웃을 만들어낼 수 있다.
 <br><br>
 
-### Usage
+## Usage
 ```
 npm i --save-dev flex-final
 ```
@@ -77,7 +77,8 @@ return (
 )
 ```
 
-### Example
+## Example
 https://codepen.io/wacilpong/pen/abzWmNq
+<br>
 
 ### ing...
