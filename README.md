@@ -24,7 +24,7 @@ A library for managing grid layout with flex, not `display:grid`
 하지만 3번이 문제다. 만약 12개의 데이터가 있고, 한 row 당 5개씩 온다고 하면 마지막에는 2개의 데이터가 오게 되고, `space-between`속성은 이를 5개가 들어오던 row처럼 계산해서 보여주지 않는다. 이렇게 마지막 row가 원하지 않는 방식으로 보여질 것이다.
 <br><br>
 
-https://codepen.io/wacilpong/pen/NWPjrmK
+https://codepen.io/wacilpong/pen/rNazyEz
 ![example of flex without left aligning to last row](https://screenshot.codepen.io/3931303.oNgWzvy.small.65586e39-20b5-41d7-88a5-17c3915f3380.png)
 
 생각해보면 한 row당 채워지는 요소 개수보다 작은 값이 항상 마지막에만 올 것이다. 예를 들면 5개씩 온다고 하면 마지막 row에는 1,2,3,4가 올 수 있다. 그리고 마지막 row에 올 개수는 미리 알 수 있는데, 총 개수가 12개이고 한 row당 개수는 5개이면 마지막 row에는 `12 % 5`인 2가 올 것이다. 그러면 이 마지막 row에는 `5 - 2`인 3개 요소만 채워지면 flex의 기본속성인 `space-between`을 그대로 사용하여 모든 규칙을 지킬 수 있다.
@@ -46,7 +46,7 @@ needed elements in last row = 5 - (18 % 5) = 2  => this is the key!
 
 ## Usage
 ```
-npm i --save-dev flex-final
+npm i --save-dev final-flex
 ```
 <br>
 
@@ -78,7 +78,7 @@ return (
 ```
 
 ## Example
-https://codepen.io/wacilpong/pen/abzWmNq
+https://codepen.io/wacilpong/pen/OJPjpeL
 <br>
 
 ### ing...
