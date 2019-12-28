@@ -1,6 +1,6 @@
 {
   "name": "final-flex",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A library for managing grid or card layout with flex",
   "author": "Areum Han <roomy.han@gmail.com>",
   "license": "MIT",
