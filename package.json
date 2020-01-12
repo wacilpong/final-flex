@@ -17,12 +17,9 @@
   ],
   "eslintConfig": {
     "env": {
-      "browser": true,
-      "es6": true
+      "browser": true
     },
-    "parserOptions": {
-      "sourceType": "module"
-    }
+    "parser": "babel-eslint"
   },
   "parser": "babel-eslint",
   "devDependencies": {
